@@ -13,6 +13,9 @@ Grab the python code and use it directly like that or if you want to make an exe
 2. Open a terminal in the folder with your script, then run:
    pyinstaller --onefile --noconsole simplecolorpicker.py
 
+3. For convenience you can compile with the icon I added here (or use your own):
+   pyinstaller --onefile --noconsole --icon=simplecolorpickericon.ico simplecolorpicker.py
+
 Whenever you run your exe you will see the color tooltip next to your mouse. 
 
 If you like this leave a comment here. 
