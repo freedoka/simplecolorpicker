@@ -4,3 +4,15 @@ A simple color picker tool for Windows platforms. Simply activate and pick any c
 Sometimes I needed to get some color from the screen. I used to screenshot the screen, load my graphics editing software and then pick the color. This started to be very annoying when I need to work with a lot of images and I needed to color match them. 
 
 How it works: simply activate it and you will a tooltip next to your mouse with the color you are on now. Click it the mouse and the color is coppied to the clipboard. 
+
+Grab the python code and use it directly like that or if you want to make an exe out of it then simply do the following:
+
+1. Install PyInstaller (if you don’t have it):
+   pip install pyinstaller
+
+2. Open a terminal in the folder with your script, then run:
+   pyinstaller --onefile --noconsole simplecolorpicker.py
+
+Whenever you run your exe you will see the color tooltip next to your mouse. 
+
+If you like this leave a comment here. 
