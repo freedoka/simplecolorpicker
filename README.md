@@ -10,7 +10,7 @@ Grab the python code and use it directly like that or if you want to make an exe
 1. Install PyInstaller (if you don’t have it):
    pip install pyinstaller
 
-2. Open a terminal in the folder with your script, then run:
+2. Open a terminal in the folder where you saved the script, then run:
    pyinstaller --onefile --noconsole simplecolorpicker.py
 
 3. For convenience you can compile with the icon I added here (or use your own):
